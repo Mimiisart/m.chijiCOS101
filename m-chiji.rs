@@ -1,6 +1,7 @@
 
 use std::io;
 fn main() {
+  for x in 0..50{
     let mut input1 = String::new();
   let mut input2 = String::new();
   let mut input3 = String::new();
@@ -26,7 +27,7 @@ fn main() {
   let state_of_origin = state_of_origin.trim();
 
 
-  println!("Are you a current class rep,(TRUE OR FALSE)");
+  println!("Are you a current class rep,(true OR false)");
   io::stdin().read_line(&mut input1).expect("failed to read_line");
   let class_rep:bool = input1.trim().parse().expect("failed to input");
 
@@ -38,22 +39,22 @@ fn main() {
   io::stdin().read_line(&mut input3).expect("failed to read_line");
   let cgpa:f32 = input3.trim().parse().expect("failed to input");
 
-  for i in 0..50{
+  {
 
     if class_rep==true && level>100 && cgpa>4.00 {
     println!("Name: {}",name);
     println!("Email: {}",email);
     println!("Department: {}",department);
     println!("state of origin: {}",state_of_origin);
-    println!("you are eligible to vote");
+     println!("you are eligible to vote");
     }
-
-    else {
+    
+     else {
     println!("Not eligible to vote");
     }
     }
     }
-
+  }
 
 
 

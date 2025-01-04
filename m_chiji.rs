@@ -2,6 +2,7 @@
 
 use std::io;
 fn main() {
+    for x in 0..101{
    let mut name = String::new();
     let mut paper= String::new();
 
@@ -33,3 +34,5 @@ println!("how many paper have you published");
     else if paper<3{
         println!("incentive is N100,000 ");
     }
+    }
+}

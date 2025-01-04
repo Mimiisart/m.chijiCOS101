@@ -1,0 +1,20 @@
+commisioner:
+Aigbogun Alamba Daudu
+Murtala Afeez Bendu
+Okoracha
+Adewale Jimoh Akanbi
+Osazuwa Faith Etieye
+
+ministry:
+Internal Affairs
+Justice
+Defense
+Power and steel
+Petroleum
+
+geopolitical_zone:
+South west
+North east
+South south
+South west
+South east

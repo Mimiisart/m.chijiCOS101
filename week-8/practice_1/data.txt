@@ -1,0 +1,3 @@
+Welcome to Rust Programming
+week 9 - Ruat File Input
+Department of computer science
