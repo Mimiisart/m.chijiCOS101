@@ -7,3 +7,5 @@ fn main(){
     println!("length of '{}' is {}.",s1,len);
 }
 fn calculate_length(s:&String) -> usize {s.len()}
+//there can only be one owner at a time
+let s2 = s1

@@ -7,7 +7,7 @@ fn main(){
    
 }
 fn tell_height(height:u32){
-println!("tell height: {}cm",tell_height(182));
+println!("tell height: {}cm",height);
 }
 
 fn human_id(name:&str,age:u32,height:f32){

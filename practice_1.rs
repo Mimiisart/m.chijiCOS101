@@ -20,4 +20,9 @@ fn main() {
      let mut stone_cold:String = String::from("hell, ");
 	 stone_cold.push_str("Yeah!");
 	 println!("stone cold is {}",stone_cold);
+
+	 let string:String = String::from("hell, ");
+	 let slice:&str=&string[0..5];
+
+	 
 }
